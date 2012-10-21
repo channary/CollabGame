@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:id="@+id/btn_load" android:text="Load"
+		android:layout_alignParentBottom="true"></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true" android:id="@+id/btn_save"
+		android:text="Save"></Button>
+	<demo.paint.DemoCanvasView android:id="@+id/canvas"
+		android:layout_above="@+id/btn_save" android:layout_width="fill_parent" android:layout_height="fill_parent"></demo.paint.DemoCanvasView>
+	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:id="@+id/btn_clear" android:text="Clear"></Button>
+</RelativeLayout>

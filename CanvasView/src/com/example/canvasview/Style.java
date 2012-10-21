@@ -103,8 +103,7 @@ public class Style extends Activity {
                                 startActivityForResult(intent,GALLERY_PIC_REQUEST);
                             }
                         dialog.dismiss();
-                    }
- 
+                    } 
                 }
                 );
                 builder.show();
