@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:id="@+id/style_layout"
+    android:background="#2be5e7">
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Picture"
+        android:id="@+id/camera_button" android:layout_alignParentBottom="true"></Button>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Image to BW"
+        android:id="@+id/bw_button" android:layout_toRightOf="@id/camera_button"
+        android:layout_alignParentBottom="true"></Button>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Trash" android:id="@+id/trash_button"
+        android:layout_toRightOf="@id/bw_button"
+        android:layout_alignParentBottom="true"></Button>
+</RelativeLayout>
